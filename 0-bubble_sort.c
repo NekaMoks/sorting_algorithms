@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap_ints - switches the two integers in array.
+ * switch_ints - switches the two integers in array.
  * @a: first integer to switch.
  * @b: second integer to switch.
  */

@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "sort.h"
 
 /**
@@ -15,7 +17,7 @@ void switch_ints(int *a, int *b)
 }
 
 /**
- * bubble_sort - Sorts the integers array in an ascending order.
+ * bubble_sort - Sorts the integers array in an ascending way.
  * @array:  integers array to sort.
  * @size: array size.
  * Description: Displays the array in each switch.

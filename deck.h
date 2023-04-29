@@ -20,14 +20,14 @@ typedef enum kind_e
 
 /**
  * struct card_s - Playing card
- * @worth: Value of the card
+ * @value: Value of the card
  * From "Ace" to "King"
  * @kind: Kind of the card
  */
 typedef struct card_s
 {
 	const char *value;
-	const type_t kind;
+	const kind_t kind;
 } card_t;
 
 /**

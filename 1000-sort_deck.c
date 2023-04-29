@@ -12,7 +12,6 @@ void sort_deck(deck_node_t **deck);
  * _strcmp -  two strings being Compares.
  * @s1: first string compared.
  * @s2: the second string compared.
- *
  * Return: byte difference if s1 > s2
  *         0 if s1 == s2
  *         byte difference if s1 < s2
@@ -33,7 +32,6 @@ int _strcmp(const char *s1, const char *s2)
 /**
  * get_value - Obtain the  value of a card.
  * @card: A pointer pointing to deck_node_t card.
- *
  * Return: value of the card.
  */
 char get_value(deck_node_t *card)
@@ -98,7 +96,7 @@ void insertion_sort_deck_kind(deck_node_t **deck)
 
 /**
  * insertion_sort_deck_value - Sorting a deck of cards to king
- * @deck: A pointer pointing to head of a deck_node_t doubly-linked list.
+ * @deck: A pointer pointing to head of a deck_node_t doubly-linked list
  */
 void insertion_sort_deck_value(deck_node_t **deck)
 {

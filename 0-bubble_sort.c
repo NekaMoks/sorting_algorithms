@@ -3,11 +3,11 @@
 #include "sort.h"
 
 /**
- * switch_ints - switches the two integers in array.
- * @a: first integer to switch.
- * @b: second integer to switch.
+ * swap_ints - interchange the two integers in array.
+ * @a: first integer to interchange.
+ * @b: second integer to interchange.
  */
-void switch_ints(int *a, int *b)
+void swap_ints(int *a, int *b)
 {
 	int tmp;
 
@@ -17,10 +17,11 @@ void switch_ints(int *a, int *b)
 }
 
 /**
- * bubble_sort - Sorts the integers array in an ascending way.
+ * bubble_sort - Sorting integers array in ascending way.
  * @array:  integers array to sort.
  * @size: array size.
- * Description: Displays the array in each switch.
+ *
+ * Description: Display array in each switch.
  */
 void bubble_sort(int *array, size_t size)
 {
@@ -37,7 +38,7 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[i] > array[i + 1])
 			{
-				switch_ints(array + i, array + i + 1);
+				swap_ints(array + i, array + i + 1);
 				print_array(array, size);
 				bubbly = false;
 			}
